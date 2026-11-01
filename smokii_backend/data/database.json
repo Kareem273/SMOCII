@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "حسين",
+      "email": "hussin@smokii.app",
+      "streakDays": 14,
+      "lowDaysCount": 6,
+      "avgLevel": "Medium",
+      "thisWeekProgress": 0.43,
+      "createdAt": "2026-10-30T19:27:57.237Z"
+    }
+  ],
+  "readings": [
+    {
+      "id": "read_001",
+      "timestamp": "2026-10-27T19:27:57.239Z",
+      "nicotinePpm": 12.4,
+      "level": "low",
+      "sensorBattery": 94,
+      "puffsDetected": 3,
+      "sessionDurationSeconds": 45,
+      "deviceStatus": "Synced",
+      "notes": "Morning breath check"
+    },
+    {
+      "id": "read_002",
+      "timestamp": "2026-10-28T19:27:57.239Z",
+      "nicotinePpm": 14.1,
+      "level": "low",
+      "sensorBattery": 89,
+      "puffsDetected": 2,
+      "sessionDurationSeconds": 40,
+      "deviceStatus": "Synced",
+      "notes": "Midday check"
+    },
+    {
+      "id": "read_003",
+      "timestamp": "2026-10-29T19:27:57.239Z",
+      "nicotinePpm": 22.8,
+      "level": "medium",
+      "sensorBattery": 82,
+      "puffsDetected": 7,
+      "sessionDurationSeconds": 60,
+      "deviceStatus": "Synced",
+      "notes": "Post-lunch sensor reading"
+    },
+    {
+      "id": "read_004",
+      "timestamp": "2026-10-30T19:27:57.239Z",
+      "nicotinePpm": 11.2,
+      "level": "low",
+      "sensorBattery": 78,
+      "puffsDetected": 1,
+      "sessionDurationSeconds": 30,
+      "deviceStatus": "Connected & Calibrated",
+      "notes": "Current session reading"
+    }
+  ],
+  "plan": {
+    "id": "plan_mohp_001",
+    "title": "خطة الإقلاع الطبية المعتمدة (وزارة الصحة)",
+    "subtitle": "بروتوكول عيادات الإقلاع عن التدخين • التخفيض المتدرج المحمي",
+    "targetQuitDate": "28 يوماً من اليوم (D-Day المحدد)",
+    "totalWeeks": 4,
+    "currentWeek": 1,
+    "currentDailyLimitPpm": 20,
+    "currentDailyPuffLimit": 12,
+    "hardwareFeedbackMessage": "Device synchronized: baseline levels stable.",
+    "mohAccreditation": "معتمد رسمياً من عيادات الإقلاع عن التدخين • وزارة الصحة والسكان المصرية (MOHP - كود 16805)",
+    "fagerstromScore": "مقياس فاجرستروم (FTND): 5/10 — اعتماد فسيولوجي متوسط",
+    "aiPersonalizationReason": "قام الذكاء الاصطناعي بتفصيل هذا المسار العلاجي آلياً بناءً على مواعيد الرغبة الصباحية ومستويات التوتر وضبط سقف النيكوتين لتقليله تدريجياً دون صدمة انسحابية.",
+    "clinicalHotline": "16805",
+    "tasks": [
+      {
+        "id": "task_morning_delay",
+        "title": "تأخير أول جرعة صباحية (بروتوكول فاجرستروم)",
+        "description": "إرجاء أول سيجارة لمدة 20 دقيقة بعد الاستيقاظ وشرب كوب ماء دافئ لكسر الإدمان الفسيولوجي.",
+        "category": "Delay",
+        "timeOfDay": "Morning",
+        "isCompleted": true
+      },
+      {
+        "id": "task_sensor_check_midday",
+        "title": "قياس الزفير الحيوي بجهاز SMOCII (PPM)",
+        "description": "النفخ في جهاز SMOCII لقياس مستويات أول أكسيد الكربون والتأكد من بقائها تحت 20 ppm.",
+        "category": "Hardware Check",
+        "timeOfDay": "Afternoon",
+        "isCompleted": false
+      },
+      {
+        "id": "task_4ds_protocol",
+        "title": "تطبيق درع الـ 4D's المعتمد من وزارة الصحة",
+        "description": "عند هجمة الرغبة: تأجيل 5 دقائق، تنفس بطني عميق (4-7-8)، شرب ماء مثلج، وتغيير المكان فوراً.",
+        "category": "Behavior",
+        "timeOfDay": "Anytime",
+        "isCompleted": false
+      },
+      {
+        "id": "task_evening_coach_checkin",
+        "title": "جلسة الدعم النفسي اليومية مع المرشد الذكي",
+        "description": "مراجعة يومك مع مساعد SMOCII التفاعلي، وتسجيل أي محفز طارئ لتثبيت تقدم الغد.",
+        "category": "Mindset",
+        "timeOfDay": "Evening",
+        "isCompleted": false
+      }
+    ]
+  }
+}

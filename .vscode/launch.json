@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SMOCII App (Windows Debug)",
+      "cwd": "smokii_app",
+      "request": "launch",
+      "type": "dart",
+      "program": "smokii_app/lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "windows"
+    },
+    {
+      "name": "SMOCII App (Chrome Debug)",
+      "cwd": "smokii_app",
+      "request": "launch",
+      "type": "dart",
+      "program": "smokii_app/lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "chrome"
+    }
+  ]
+}
